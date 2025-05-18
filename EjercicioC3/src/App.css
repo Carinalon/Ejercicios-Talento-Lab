@@ -41,9 +41,21 @@
   
 }
 
+/* componente tarjetaProyecto*/
 
-
-
+.contenedorGaleria{
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+.botonGaleria{
+  border: 1px solid #fad9be;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 150px;
+  background-color: rgb(211, 109, 36);
+  color:black
+}
 
 @keyframes logo-spin {
   from {
