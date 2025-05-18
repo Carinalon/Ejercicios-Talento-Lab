@@ -20,7 +20,7 @@ const cambiarColor = (e) => {
         }
     
         e.target.style.backgroundColor = color;
-        e.target.style.color = '#000';
+        e.target.style.color = '#000'; //que mantenga el color del texto
     }
 
 
